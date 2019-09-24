@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 13, 2019, 7:28:52 PM
+    Author     : Fdim_
+*/
+body {    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+ }  .bg-navy  { background-color: rgb(8,8,44)}  .fullscreen-bg
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: -100;}
+.fullscreen-bg_video{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: auto;
+   height: auto;
+   min-width: 100%;
+   min-height: 100%;
+   -webkit-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+}
+#overlay{
+ position: fixed;
+ top: 50%;
+ left: 40%;}
+.content {
+ position: fixed;
+ bottom: 0;
+ background: rgba(0, 0, 0, 0.5);
+ color: #f1f1f1
+;
+ width: 100%;
+ padding: 20px;
+ height: 200px;
+ text-align: center;}
+

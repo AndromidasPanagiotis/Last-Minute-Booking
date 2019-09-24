@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Ιουλ 2019, 3:04:42 μμ
+    Author     : minas
+*/
+
+body {
+    background: url('../media/bg_1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .bg-navy  { background-color: rgb(8,8,44)}
+  
+  #button_search{
+    margin-top:25px;
+    width:250px;
+
+}
+

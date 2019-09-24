@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Ιουλ 2019, 9:38:59 μμ
+    Author     : minas
+*/
+.bg-navy  { background-color: rgb(8,8,44)}
+
+.zeropadding{
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+}
+.border-color-navy{
+    border-style: solid;
+    border-color:rgb(8,8,44);
+    border-width: 3px;}
+
+.border-color-navy2{
+    border-style: solid;
+    border-color:rgb(8,8,44);
+    border-width: 1px;}
+.text-navy{
+    color:rgb(8,8,44);
+    font-family: "Times New Roman", Times, serif;
+}
+
+#button_search{
+    margin-top:25px;
+    width: 200px;
+
+}
+#home_link{
+    font-size: 150%;
+    color: white;
+    border-style: solid;
+    border-color:white;
+    border-width: 3px;
+}
+
+#dropdown_customer{
+    margin-bottom: 0px;
+}
+.custom{
+    width: 150px ;
+}   
+.disabled{
+    pointer-events: none;
+}
+.pad-top{
+    padding-top: 35px;
+}
+
+.rating{
+
+margin-left: 90px;
+    margin-top: 30px;
+    transform:translate(-50%,-50%) rotateY(180deg);
+    display:flex;
+
+}
+
+.rating input{
+    display:none;
+
+}
+
+.rating label{
+    display:block;
+    cursor:pointer;
+    width:50px;
+
+}
+
+.rating label:before{
+    content:'\f005';
+    font-family: fontAwesome;
+    position:relative;
+    display:block;
+    font-size:50px;
+    color:#101010;
+
+}
+
+.rating label:after{
+    content:'\f005';
+    font-family: fontAwesome;
+    position:absolute;
+    display:block;
+    font-size:50px;
+    color:#1f9cff;
+    top:0;
+    opacity: 0;
+    transition:.5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating label:hover:after,
+.rating label:hover~ label:after,
+.rating input:checked ~ label:after
+{
+    opacity: 1;
+}

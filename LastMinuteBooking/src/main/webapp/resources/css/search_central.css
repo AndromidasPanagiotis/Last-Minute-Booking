@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Ιουλ 2019, 3:07:15 μμ
+    Author     : minas
+*/
+
+.bg-navy  { background-color: rgb(7,7,44)}
+
+.border-color-navy{
+    border-style: solid;
+    border-color:rgb(8,8,44);
+    border-width: 3px;}
+
+.border-color-navy2{
+    border-style: solid;
+    border-color:rgb(8,8,44);
+    border-width: 1px;}
+
+.text-navy{
+    color:rgb(8,8,44);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.w3-lobster {
+  font-family: "Lobster", Sans-serif;
+}
+
+#Search_text{
+    margin-left: 15px;
+}
+
+#Search_box{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+}
+
+#Search_box_inside{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#button_search{
+    margin-top:25px;
+    width: 200px;
+
+}
+
+#home_link{
+    font-size: 150%;
+    color: white;
+    border-style: solid;
+    border-color:white;
+    border-width: 3px;
+
+}
+
+#dropdown_customer{
+    margin-bottom: 0px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  text-align:right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;}
+
+#map {
+    height: 550px;
+    width: 100%
+}
+
+.test {
+  width: 62px;
+  height: 63px;
+  background-color: rgb(255, 165, 0);
+}
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="bootcamp.project_lmb_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>bootcamp.project.model.RoomEquipment</class>
+    <class>bootcamp.project.model.Rating</class>
+    <class>bootcamp.project.model.Reservation</class>
+    <class>bootcamp.project.model.Room</class>
+    <class>bootcamp.project.model.RoomStatus</class>
+    <class>bootcamp.project.model.HotelOwner</class>
+    <class>bootcamp.project.model.Equipment</class>
+    <class>bootcamp.project.model.Destination</class>
+    <class>bootcamp.project.model.Customer</class>
+    <class>bootcamp.project.model.Hotel</class>
+    <class>bootcamp.project.model.Login</class>
+    <class>bootcamp.project.lmb.model.HotelFacilities</class>
+    <class>bootcamp.project.lmb.model.Equipment</class>
+    <class>bootcamp.project.lmb.model.Room</class>
+    <class>bootcamp.project.lmb.model.Status</class>
+    <class>bootcamp.project.lmb.model.Rating</class>
+    <class>bootcamp.project.lmb.model.Facilities</class>
+    <class>bootcamp.project.lmb.model.RoomUnavailability</class>
+    <class>bootcamp.project.lmb.model.RoomEquipment</class>
+    <class>bootcamp.project.lmb.model.Destination</class>
+    <class>bootcamp.project.lmb.model.Hotel</class>
+    <class>bootcamp.project.lmb.model.RoomStatus</class>
+    <class>bootcamp.project.lmb.model.User</class>
+    <class>bootcamp.project.lmb.model.Role</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://5.189.135.166:3011/LastMinuteBooking?zeroDateTimeBehavior=CONVERT_TO_NULL&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+      <property name="javax.persistence.jdbc.user" value="LastMinuteBookin"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="LastMinuteBookin@#$"/>
+    </properties>
+  </persistence-unit>
+</persistence>
