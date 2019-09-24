@@ -11,3 +11,5 @@ More specifically:
 5. The application has the option to produce reporting views with (custom) filters. 
 6. The application has a module that permits internal communication between internal entities. 
 7. The application supports an e-payment process through paypal sandbox mode. 
+
+Still under development - minor fixes might be needed and/or new features added in the future.
